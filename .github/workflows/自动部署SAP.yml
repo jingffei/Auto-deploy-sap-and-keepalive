@@ -6,7 +6,7 @@ on:
       environment:
         description: '选择部署环境'
         required: true
-        default: 'production'
+        default: 'staging'
         type: choice
         options:
           - staging
@@ -14,7 +14,7 @@ on:
       region:
         description: '选择部署区域'
         required: true
-        default: 'US'
+        default: 'SG'
         type: choice
         options:
           - SG
